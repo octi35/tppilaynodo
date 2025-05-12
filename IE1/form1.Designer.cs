@@ -1,4 +1,5 @@
-﻿namespace IE1
+﻿
+namespace IE1
 {
     partial class form1
     {
@@ -304,6 +305,11 @@
             groupBox1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
