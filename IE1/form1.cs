@@ -76,6 +76,7 @@ namespace IE1
         }
 
         // Verifica que todos los campos estén completos antes de insertar
+        // se le añade adverten 
         private bool validarCamposPaciente()
         {
             if (string.IsNullOrWhiteSpace(txtDNI.Text) ||
